@@ -1,8 +1,8 @@
-import bsv from 'bsv';
+import bsv from '@vaionex/bsv';
 import {StandardToExtended} from "../standard-to-extended";
 import {PreviousOutputs} from "../interface";
 
-declare module "bsv" {
+declare module "@vaionex/bsv" {
   interface Transaction {
     toExtended(format: string): string | Buffer;
   }

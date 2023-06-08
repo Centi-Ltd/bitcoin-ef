@@ -72,8 +72,8 @@ const standardTransaction = ExtendedToStandard(extendTransaction);
 ## Usage with the BSV library
 
 ```javascript
-import bsv from 'bsv';
-import 'bitcoin-ef/bsv';
+import bsv from '@vaionex/bsv';
+import '@vaionex/bitcoin-ef/bsv';
 
 const tx = new bsv.Transaction()
   .from(utxo)
@@ -89,8 +89,8 @@ const txHex = tx.toExtended('hex');
 or if you have problems with the above:
 
 ```javascript
-import bsv from 'bsv';
-import { BSVToExtended } from 'bitcoin-ef/bsv';
+import bsv from '@vaionex/bsv';
+import { BSVToExtended } from '@vaionex/bitcoin-ef/bsv';
 
 const tx = new bsv.Transaction()
   .from(utxo)

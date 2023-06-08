@@ -1,4 +1,4 @@
-import bsv from 'bsv';
+import bsv from '@vaionex/bsv';
 import {describe, expect, test} from '@jest/globals'
 import { BSVToExtended } from "../src/bsv";
 import { invalidTx, data } from "./data";
@@ -35,7 +35,7 @@ describe('BSV to Extended', () => {
     expect(() => {
       const tx = new bsv.Transaction(data[0].validTx);
       const standardTx = BSVToExtended(tx);
-    }).toThrow("input must have the previous outputs set to use toExtended");
+    }).toThrow("input must have the previous output script and satoshis set to use toExtended");
   });
 
   test('valid tx vectors', () => {
