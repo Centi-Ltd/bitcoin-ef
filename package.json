@@ -74,7 +74,7 @@
     "@types/node": "^18.14.1",
     "babel-jest": "^28.0.1",
     "babel-plugin-import": "^1.13.3",
-    "@vaionex/bsv": "1.5.8",
+    "@vaionex/bsv": "1.5.9",
     "eslint": "^8.8.0",
     "jest": "^28.0.1",
     "jest-fetch-mock": "^3.0.3",
