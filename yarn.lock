@@ -1595,10 +1595,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@vaionex/bsv@1.5.8":
-  version "1.5.8"
-  resolved "https://npm.pkg.github.com/download/@vaionex/bsv/1.5.8/8ab110fd8f8ea06b6e796d1bb295f1a7be9cdfb3"
-  integrity sha512-EGAnAwQdrNSXvvdkFCsZ4XrIAtZCEGFWJMR0cmZwSXO3W9iaXMAQsUlaRcmgHIf2bQwoY1Gpm6IdXI0jRK8gGg==
+"@vaionex/bsv@1.5.9":
+  version "1.5.9"
+  resolved "https://npm.pkg.github.com/download/@vaionex/bsv/1.5.9/4cf75dcc2a2217695f1351038a82483d94d1424f"
+  integrity sha512-fheAe2gxlARHosD0+5jifPjyf80MTS1u/9BxgJoi3kSAE9QrEgHHM2/zTSj3pQ5G6ytQOE4xmMcYI/C+g8Ya6w==
   dependencies:
     aes-js "^3.1.2"
     bn.js "=4.11.9"
