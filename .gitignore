@@ -61,7 +61,6 @@ node_modules/
 todo.md
 
 # Deployment
-dist
 coverage
 module
 docs
